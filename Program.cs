@@ -51,6 +51,9 @@ namespace SuncoastMovies
         public string FullName { get; set; }
         public DateTime Birthday { get; set; }
 
+        // Adding this field
+        public bool ScreenActorsGuildMember { get; set; }
+
         // This is the related list of roles we an use (if properly used with Include)
         public List<Role> Roles { get; set; }
     }
